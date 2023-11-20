@@ -49,7 +49,7 @@ function deleteTask(index) {
     tasks.value.splice(index, 1);
     $q.notify({
       message: "Task Delete",
-      color: "purple",
+      color: "blue",
     });
   });
 }
